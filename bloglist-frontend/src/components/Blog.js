@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button, Segment, List } from 'semantic-ui-react'
+import PropTypes from 'prop-types'
 
 const Blog = (props) => {
 
@@ -35,6 +36,12 @@ const Blog = (props) => {
       </List>
     </Segment>
   )
+}
+
+Blog.propTypes = {
+  blog: PropTypes.object.isRequired,
+  like: PropTypes.func.isRequired,
+  remove: PropTypes.func.isRequired
 }
 
 export default Blog

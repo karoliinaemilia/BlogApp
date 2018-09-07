@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="ui success message"
+>
+  hello
+</div>
+`;
+
+exports[`renders correctly 2`] = `
+<div>
+  <div
+    style={
+      Object {
+        "display": "",
+      }
+    }
+  >
+    <button
+      className="ui black button"
+      disabled={undefined}
+      onClick={[Function]}
+      role="button"
+      tabIndex={undefined}
+    >
+      definitely a label
+    </button>
+  </div>
+  <div
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <br />
+    <button
+      className="ui button"
+      disabled={undefined}
+      onClick={[Function]}
+      role="button"
+      tabIndex={undefined}
+    >
+      cancel
+    </button>
+  </div>
+</div>
+`;
