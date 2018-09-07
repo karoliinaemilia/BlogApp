@@ -1,0 +1,7 @@
+deploy:
+  provider: heroku
+  api_key:
+    secure: ut+cRKwQvFWRpi3J0GWtrp8/0SIv3uMbEjA8acjYlBNmwWWeiTcv9OMAIKhXne389L4UamYI5UCUH4LqteUp0S6njM/lMzp4GLwys+thDJjy0N7Q3UaLVFxdYXX9GOFEKfBOAwtkTIkb2Tp1R0NkSuwbJFp2C5xJj2oi31+v8JnwfNELK5+0lrzZzo+8YQV/zehy1O8mhGtRYGOut+bOGYUTbsQiA7d7a9VcahBNY7dNsbAKoPW+e18czA8QyuLDtep+zo5eGHC3o0pJPQxqSqWBrmiKIyerepKQl3/8L/yztFHIPSbRWrY6jpnNwgyfuSkqhbAGskLhlNH4qCMBlAG5JkSfVVu+3RZps/EmeJbnL5SOTVmcE3Mp02+Tm/OfKUuC7BdA88OTWOFLKW7Ofq7y0W/+Byc+MwkobvCe9w61cxaLM0oy5ajE7xNrxQ2Bq7abmZc0hyr6G8IH1UVXF2ZPZ47nayHgXCmqv3Pz34Jq6azqpkyZgeRdJishN6TE5iSmL9P6SLX40U+w5iz0gKnzDx+A/h5JsZ8PmOPKG9fygn1RBrbo0dYu7xLP9bYvx+6XjpLW3yci4rpIrJOt5BHAEdcB9ooNnyoR6yJERnpq/j5eeZ2iqknBtR+OZqTYvAj3T5anYj/M2buCRpdeSvwY7qunicHhyvyrDukq+rU=
+  app: blogilistasovellus
+  on:
+    repo: karoliinaemilia/FullStack7
